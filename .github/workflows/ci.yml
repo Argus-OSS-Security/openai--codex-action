@@ -1,11 +1,12 @@
 name: Verify TypeScript Build
 
-on:
-  pull_request:
-  push:
-    branches:
-      - main
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#   push:
+#     branches:
+#       - main
+# 
 jobs:
   verify:
     runs-on: ubuntu-latest
